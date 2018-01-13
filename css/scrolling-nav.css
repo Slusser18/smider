@@ -1,0 +1,47 @@
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+
+.upper-row {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2px;
+  }
+
+  .time {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-style: italic;
+  }
+
+  .contact-container {
+    display:block;
+    width:60%;
+    margin:0 auto;
+    padding-top:25px;
+  }
+
+
+
+  @media (max-width: 600px) {
+
+    .time {
+        position: relative;
+        display: block;
+    }
+
+    .upper-row {
+      margin-bottom: 0;
+    }
+  }
